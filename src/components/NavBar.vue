@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-light bg-light px-2">
-      <a class="navbar-brand" href="/">WALLEET</a>
+    <nav class="navbar navbar-light bg-light px-3">
+      <a class="navbar-brand" href="/">Moon Investiment</a>
     </nav>
   </div>
 </template>
