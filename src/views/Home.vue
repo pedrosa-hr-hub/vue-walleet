@@ -1,16 +1,22 @@
 <template>
      <div>
-          <Insert/>
+          <Moviments/>
+          <Charts/>
+          <Assets/>
      </div>
 </template>
 
 <script>
-     import Insert from '../components/Insert.vue'
+     import Moviments from '../components/moviments.vue';
+     import Charts from '../components/charts.vue';
+     import Assets from '../components/assets.vue';
 
      export default {
           name: "Home",
           components: {
-               Insert
+               Moviments,
+               Charts,
+               Assets
           }
      };
 
