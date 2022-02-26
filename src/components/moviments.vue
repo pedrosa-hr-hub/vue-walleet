@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-3">
     <div class="card">
-      <div class="card-header">
+      <div class="card-header card text-white bg-dark">
           <center><h4>ATIVIDADES NA CARTEIRA</h4></center>
       </div>
       <div class="card-body">
