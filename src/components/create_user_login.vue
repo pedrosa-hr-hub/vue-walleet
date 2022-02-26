@@ -1,13 +1,14 @@
 <template>
-       <div class="container">
-          <a href="/home" class="btn btn-success">CRIAR CONTA</a>
+       <div class="container"> 
+          
+          <button class="btn btn-success">CRIAR CONTA</button>
+          
      </div>
 </template>
 <script>
-export default {
-     name:"Create_User"
-
-}
+     export default {
+          name:"Create_User",
+     }
 </script>
 
 <style>

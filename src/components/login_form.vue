@@ -13,11 +13,11 @@
                          <button type="submit" class="btn btn-outline-success mt-2">ENTRAR</button> 
                          <br>
                          <a href="/home" class="btn btn-outline-warning mt-2">ESQUECI A SENHA</a>
+                         
                     </div>
                </div>
           </form>
           <hr class="mt-4">
-          
      </div>
 </template>
 <script>
