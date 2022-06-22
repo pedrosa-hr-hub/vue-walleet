@@ -3,7 +3,6 @@
           <Moviments/>
           <Charts/>
           <Assets/>
-          <Buy/>
      </div>
 </template>
 
@@ -11,7 +10,6 @@
      import Moviments from '../components/moviments.vue';
      import Charts from '../components/charts.vue';
      import Assets from '../components/assets.vue';
-     import Buy from '../components/buy.vue';
 
      export default {
           name: "Home",
@@ -19,7 +17,6 @@
                Moviments,
                Charts,
                Assets,
-               Buy
           }
      };
 

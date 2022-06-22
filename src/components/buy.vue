@@ -16,7 +16,7 @@
 
 
                <div v-if="stock">
-                   <form action="" class="form mt-3">
+                   <form action="/home" class="form mt-3">
                          <label for="stock_ticker">Ticker da Ação:</label>
                          <input type="text" class="form-control" name="stock_ticker" placeholder="ITSA4, BLAU3, WEGE3">
 
@@ -35,7 +35,7 @@
                </div>
 
                <div v-else-if="fii">
-                   <form action="" class="form mt-3">
+                   <form action="/home" class="form mt-3">
                          <label for="fii_ticker">Ticker do Fundo:</label>
                          <input type="text" class="form-control" name="fii_ticker" placeholder="KNRI11, MXRF11, BRCR11">
 
@@ -54,7 +54,7 @@
                </div>
 
                <div v-else-if="fund">
-                   <form action="" class="form mt-3">
+                   <form action="/home" class="form mt-3">
                          <label for="fund_name">Nome do Fundo:</label>
                          <input type="text" class="form-control" name="fund_name" placeholder="Trend DI Simples FIRF, XP FMP – FGTS ELETROBRÁS">
 
@@ -70,7 +70,7 @@
                </div>
 
                <div v-else-if="tresory">
-                   <form action="" class="form mt-3">
+                   <form action="/home" class="form mt-3">
                          <label for="tresory_name">Nome do título:</label>
                          <input type="text" class="form-control" name="tresory_name" placeholder="TESOURO SELIC 2025, TESOURO IPCA+ 2045">
 
