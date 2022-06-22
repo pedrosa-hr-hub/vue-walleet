@@ -5,6 +5,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Login from './views/Login.vue';
 import Buy from './views/Buy.vue';
+import Increase from './views/Increase.vue';
 
 Vue.use(Router);
 
@@ -26,6 +27,11 @@ export default new Router({
                name: 'Buy',
                component: Buy
           },
+          {
+               path: '/buyMore',
+               name: 'Increase',
+               component: Increase
+          }
      ]
 
 });
