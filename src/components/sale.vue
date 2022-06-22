@@ -3,15 +3,15 @@
      <div class="container mt-3">
      <div class="card">
           <div class="card-header card text-white bg-dark">
-               <center><h4>NOVO ATIVO</h4></center>
+               <center><h4>VENDA DA POSIÇÃO</h4></center>
           </div>
           <div class="card-body">
                
                <center>
-                    <button id="btn_stock" class="btn btn-outline-success" @click="stock = !stock">Ação</button>
-                    <button class="btn btn-outline-success ms-2" @click="fii = !fii">Fundo Imobiliario</button>
-                    <button class="btn btn-outline-success ms-2" @click="fund = !fund">Fundo de Investimento</button>
-                    <button class="btn btn-outline-success ms-2" @click="tresory = !tresory">Tesouro Direto</button>
+                    <button id="btn_stock" class="btn btn-outline-danger" @click="stock = !stock">Ação</button>
+                    <button class="btn btn-outline-danger ms-2" @click="fii = !fii">Fundo Imobiliario</button>
+                    <button class="btn btn-outline-danger ms-2" @click="fund = !fund">Fundo de Investimento</button>
+                    <button class="btn btn-outline-danger ms-2" @click="tresory = !tresory">Tesouro Direto</button>
                </center>
 
 
@@ -30,7 +30,7 @@
                          <input type="date" class="form-control" name="stock_datebuy" >
 
                          <br>
-                         <button type="submit" class="btn btn-outline-success mt-2">SALVAR</button> 
+                         <button type="submit" class="btn btn-outline-danger mt-2">SALVAR</button> 
                    </form>
                </div>
 
@@ -49,7 +49,7 @@
                          <input type="date" class="form-control" name="fii_datebuy" >
 
                          <br>
-                         <button type="submit" class="btn btn-outline-success mt-2">SALVAR</button> 
+                         <button type="submit" class="btn btn-outline-danger mt-2">SALVAR</button> 
                    </form>
                </div>
 
@@ -65,7 +65,7 @@
                          <input type="date" class="form-control" name="fund_datebuy" >
 
                          <br>
-                         <button type="submit" class="btn btn-outline-success mt-2">SALVAR</button> 
+                         <button type="submit" class="btn btn-outline-danger mt-2">SALVAR</button> 
                    </form>
                </div>
 
@@ -81,7 +81,7 @@
                          <input type="date" class="form-control" name="tresory_datebuy" >
 
                          <br>
-                         <button type="submit" class="btn btn-outline-success mt-2">SALVAR</button> 
+                         <button type="submit" class="btn btn-outline-danger mt-2">SALVAR</button> 
                    </form>
                </div>
                <div v-else>
@@ -95,7 +95,7 @@
 </template>
 <script>
 export default {
-     name:"Buy",
+     name:"Sale",
      data() {
           return {
                stock: false,

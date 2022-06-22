@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-dark bg-dark px-3">
-      <a class="navbar-brand" href="/">Moon Investiment</a>
+      <a class="navbar-brand" href="/home">Moon Investiment</a>
       <span class="navbar-text">
       </span>
     </nav>
